@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /remote-support/
+Allow: /wp-content/
+Allow: /wp-includes/
+Allow: /contact-us/
+Allow: /cyber-security/
+Allow: /managed-services/
+Allow: /projects/
+
+Sitemap: https://radiusimpact.ca/sitemap.xml
