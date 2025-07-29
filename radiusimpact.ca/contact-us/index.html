@@ -95,6 +95,51 @@ div#wpppass p {
 			width: auto;
 			z-index: 100000;
 		}
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #f9f9f9;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  font-family: sans-serif;
+}
+.container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.form-group, .form-row {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.form-row {
+  display: flex;
+  gap: 10px;
+}
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+textarea.form-control {
+  resize: vertical;
+}
+button.btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  background: #c00;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button.btn:hover {
+  background: #900;
+}
+
 </style>
 <link rel='stylesheet' id='hfe-style-css' href='../wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor2f91.css?ver=2.4.6' media='all' />
 <link rel='stylesheet' id='elementor-icons-css' href='../wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min2778.css?ver=5.43.0' media='all' />
@@ -262,33 +307,28 @@ div#wpppass p {
 				<div class="elementor-widget-container">
 					<h2 class="elementor-heading-title elementor-size-default">CONTACT US</h2>				</div>
 				</div>
-				<div class="elementor-element elementor-element-eb0a908 elementor-widget__width-inherit elementor-widget elementor-widget-wpforms" data-id="eb0a908" data-element_type="widget" data-widget_type="wpforms.default">
-				<div class="elementor-widget-container">
-					<style id="wpforms-css-vars-elementor-widget-eb0a908">
-				.elementor-widget-wpforms.elementor-element-eb0a908 {
-				--wpforms-field-background-color: #FFFFFF;
---wpforms-button-background-color: #AB0606;
+			<div class="container">
 
-			}
-			</style><div class="wpforms-container wpforms-container-full wpforms-render-modern" id="wpforms-123"><form id="wpforms-form-123" class="wpforms-validate wpforms-form wpforms-ajax-form" data-formid="123" method="post" enctype="multipart/form-data" action="https://radiusimpact.ca/contact-us/" data-token="d0d6cd5d210d28168bb88bed4ac33957" data-token-time="1753794413"><noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript><div id="wpforms-error-noscript" style="display: none;">Please enable JavaScript in your browser to complete this form.</div><div class="wpforms-field-container">		<div id="wpforms-123-field_4-container"
-			class="wpforms-field wpforms-field-text"
-			data-field-type="text"
-			data-field-id="4"
-			>
-			<label class="wpforms-field-label" for="wpforms-123-field_4" >Email Full Name</label>
-			<input type="text" id="wpforms-123-field_4" class="wpforms-field-medium" name="wpforms[fields][4]" >
-		</div>
-		<div id="wpforms-123-field_1-container" class="wpforms-field wpforms-field-text wpforms-one-half wpforms-first" data-field-id="1"><label class="wpforms-field-label wpforms-label-hide" for="wpforms-123-field_1" aria-hidden="false">Full Name <span class="wpforms-required-label" aria-hidden="true">*</span></label><input type="text" id="wpforms-123-field_1" class="wpforms-field-large wpforms-field-required" name="wpforms[fields][1]" placeholder="Enter Full Name" aria-errormessage="wpforms-123-field_1-error" required></div><div id="wpforms-123-field_2-container" class="wpforms-field wpforms-field-email wpforms-one-half" data-field-id="2"><label class="wpforms-field-label wpforms-label-hide" for="wpforms-123-field_2" aria-hidden="false">Email <span class="wpforms-required-label" aria-hidden="true">*</span></label><input type="email" id="wpforms-123-field_2" class="wpforms-field-large wpforms-field-required" name="wpforms[fields][2]" placeholder="Enter Email" spellcheck="false" aria-errormessage="wpforms-123-field_2-error" required></div><div id="wpforms-123-field_3-container" class="wpforms-field wpforms-field-textarea" data-field-id="3"><label class="wpforms-field-label wpforms-label-hide" for="wpforms-123-field_3" aria-hidden="false">Message <span class="wpforms-required-label" aria-hidden="true">*</span></label><textarea id="wpforms-123-field_3" class="wpforms-field-medium wpforms-field-required" name="wpforms[fields][3]" placeholder="Enter Message" aria-errormessage="wpforms-123-field_3-error" required></textarea></div><script>
-				( function() {
-					const style = document.createElement( 'style' );
-					style.appendChild( document.createTextNode( '#wpforms-123-field_4-container { position: absolute !important; overflow: hidden !important; display: inline !important; height: 1px !important; width: 1px !important; z-index: -1000 !important; padding: 0 !important; } #wpforms-123-field_4-container input { visibility: hidden; } #wpforms-conversational-form-page #wpforms-123-field_4-container label { counter-increment: none; }' ) );
-					document.head.appendChild( style );
-					document.currentScript?.remove();
-				} )();
-			</script></div><!-- .wpforms-field-container --><div class="wpforms-recaptcha-container wpforms-is-recaptcha wpforms-is-recaptcha-type-v3" ><input type="hidden" name="wpforms[recaptcha]" value=""></div><div class="wpforms-submit-container" ><input type="hidden" name="wpforms[id]" value="123"><input type="hidden" name="page_title" value="Contact us"><input type="hidden" name="page_url" value="https://radiusimpact.ca/contact-us/"><input type="hidden" name="url_referer" value="http://radiusimpact.ca/"><input type="hidden" name="page_id" value="41"><input type="hidden" name="wpforms[post_id]" value="41"><button type="submit" name="wpforms[submit]" id="wpforms-submit-123" class="wpforms-submit" data-alt-text="Sending..." data-submit-text="Submit" aria-live="assertive" value="wpforms-submit">Submit</button><img decoding="async" src="../wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg" class="wpforms-submit-spinner" style="display: none;" width="26" height="26" alt="Loading"></div></form></div>  <!-- .wpforms-container -->				</div>
-				</div>
-					</div>
-		</div>
+<form action="https://formsubmit.co/support.team@radiusimpact.ca" method="POST" target="_blank">
+<div class="form-group">
+<div class="form-row">
+<div class="col">
+<input class="form-control" name="name" placeholder="Full Name" required="" type="text"/>
+</div>
+<div class="col">
+<input class="form-control" name="email" placeholder="Email Address" required="" type="email"/>
+</div>
+</div>
+</div>
+<div class="form-group">
+<textarea class="form-control" name="message" placeholder="Your Message" required="" rows="10"></textarea>
+</div>
+<button class="btn btn-lg btn-dark btn-block" type="submit">Submit Form</button>
+</form>
+</div>
+
+
+	
 					</div>
 		</section>
 				</div>
